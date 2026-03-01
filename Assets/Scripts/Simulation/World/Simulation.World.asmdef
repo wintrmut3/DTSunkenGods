@@ -1,0 +1,16 @@
+{
+    "name": "Simulation.World",
+    "rootNamespace": "",
+    "references": [
+        "GUID:aa37db9832654a541967c711d2c68b40"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
