@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7f3d0d3b66ca348ae01b328ad87262, type: 3}
+  m_Name: WorldTileLib
+  m_EditorClassIdentifier: 
+  entries:
+  - type: 0
+    tile: {fileID: 11400000, guid: c832ef08083161c45a0ea7f8796ae2cb, type: 2}
+  - type: 1
+    tile: {fileID: 11400000, guid: 65e46bf17e2e4024f82a648cd85c7abd, type: 2}
+  - type: 2
+    tile: {fileID: 11400000, guid: 5be97ea5f8ae1a34d8b70ca1d5ad9150, type: 2}
+  - type: 3
+    tile: {fileID: 11400000, guid: 8eab191b48364794b8d3d64f9e190ecd, type: 2}
+  - type: 4
+    tile: {fileID: 11400000, guid: 00ab8f08d8bba38408c1c1ffea2c8a9f, type: 2}
+  - type: 5
+    tile: {fileID: 11400000, guid: b367a31e3822dd44dbdf506e560172d6, type: 2}
+  - type: 6
+    tile: {fileID: 11400000, guid: ba7ca3a6d4ec41c40bc46b9f52d4cd8a, type: 2}
+  - type: 7
+    tile: {fileID: 11400000, guid: 57b47e333a7280643b42e58262ef1fb9, type: 2}

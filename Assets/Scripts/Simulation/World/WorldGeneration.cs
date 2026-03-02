@@ -21,11 +21,16 @@ public class WorldGenerator
         {
             for (int x = 0; x < map.Width; x++)
             {
-                float z = (noise.GetNoise(x * noiseScale, y * noiseScale) + 1) / 2f * 10;
+                float z = (noise.GetNoise(x * noiseScale, y * noiseScale) + 1) / 2f * 100;
                 // island - reduce outer height
                 z /= Math.Clamp((MathF.Abs(x - map.Width / 2) + MathF.Abs(y - map.Height / 2)) * falloff, 1, 10);
 
-                map.Tiles[map.IndexOf(x,y)] = new WorldTile(TileType.NIL, (byte) z);
+                TileType tileType = TileType.WATER;
+                if (z > 8f) tileType = TileType.DEEP_FOREST;
+                else if (z > 3f) tileType = TileType.FOREST;
+                else if (z > 2f) tileType = TileType.SAND;
+
+                map.Tiles[map.IndexOf(x,y)] = new WorldTile(tileType, (byte) z);
             }
         }        
         
